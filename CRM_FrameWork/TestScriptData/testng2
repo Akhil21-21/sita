@@ -1,0 +1,13 @@
+<suite name="Horilla HRMS End To End" preserve-order="true" parallel="false">
+<parameter name="browser" value="chrome"/>
+<listeners>
+<listener class-name="Project_1.TestListener"/>
+</listeners>
+<test name="Employee Asset Leave Workflow">
+<classes>
+<class name="Project_1.EmplRegis"/>
+<class name="Project_1.Asset"/>
+<class name="Project_1.Leave"/>
+</classes>
+</test>
+</suite>

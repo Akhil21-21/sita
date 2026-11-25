@@ -1,0 +1,13 @@
+<suite name="HRMS Suite">
+
+    <listeners>
+        <listener class-name="Project_1.TestListener"/>
+    </listeners>
+
+    <test name="HRMS Automation">
+        <classes>
+            <class name="Project_1.SysTest"/>
+        </classes>
+    </test>
+
+</suite>

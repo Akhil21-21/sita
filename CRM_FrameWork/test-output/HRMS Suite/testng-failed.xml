@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HRMS Suite]">
+  <listeners>
+    <listener class-name="Project_1.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="HRMS Automation(failed)">
+    <classes>
+      <class name="Project_1.SysTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="TestBC"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="Stest"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Project_1.SysTest -->
+    </classes>
+  </test> <!-- HRMS Automation(failed) -->
+</suite> <!-- Failed suite [HRMS Suite] -->
